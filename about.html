@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>My Bio</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html, body {
+                height:100%;
+            }
+            body {
+                min-height:91%;
+                display:flex;
+                flex-direction:column;
+                float:none;
+                
+            }
+            .wrapper {
+                flex:1;
+            }
+            .main-header {
+                background-color: darkgoldenrod;
+                height: 50px;
+                width: 70%;
+                padding: 5px 15%;
+            }
+            .main-header h1 {
+                line-height: 50px;
+            }
+            .footer {
+                height: 50px;
+                background-color: darkgoldenrod;
+            }
+            span.logo {
+                color: blue;
+            }
+            .copyright {
+                color: blue;
+                font-weight: bold;
+                width: 100%;
+                text-align: center;
+                padding: 15px 0;
+            }
+            .box-shadow {
+                box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -webkit-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -moz-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+                -o-box-shadow: inset 0px 0px 50px 0px #ABABAB, 1px 1px 5px 1px #242424;
+            }
+            .content-top {
+                height: 350px;
+                background-color: darkgoldenrod;
+                margin: 10px 0;
+            }
+            .content-bio {
+                position: relative;
+                background-color:darkgoldenrod;
+                width: 70%;
+                max-width:980px;
+                height: 350px;
+                margin: 0 auto;
+            }
+            .content-bio img {
+                width: 150px;
+                height: 170px;
+                margin: 5px 15px 5px 5px;
+            }
+            .bio-text {
+                position: absolute;
+                top: 5px;
+                left: 170px;
+            }
+            .content-bottom {
+                overflow: auto;
+                width: 70%;
+                max-width: 980px;
+                position: relative;
+                margin: 0 auto;
+            }
+            .sidebar {
+                float: left;
+                background-color: darkgoldenrod;
+                width: 25%;
+                height: 500px;
+            }
+            .main-content {
+                float: right;
+                background: url(https://yt3.ggpht.com/-058HlQo6Dfc/AAAAAAAAAAI/AAAAAAAAAAA/h3mTqyvMa8E/s900-c-k-no-mo-rj-c0xffffff/photo.jpg);
+                background-size: 750px 650px; 
+                width: 71%;
+                height: 500px;
+                padding: 0 2% 0 2%;
+            }
+            .sidebar-links {
+                background-color: #f1f1f1;
+            }
+            .sidebar-links li {
+                width: 100%;
+                height: 30px;
+                border: 1px solid #CCC;
+                border-top: 1px solid #FFF;
+            }
+            .sidebar-links a {
+                display: block;
+                padding: 7px;
+                text-decoration: none;
+                transition-duration: 0.7s;
+            }
+            .sidebar-links a:hover {
+                background-color: #CCC;
+                color: #000;
+            }
+            p {
+                text-indent:50px;
+            }
+            div.wrapper {
+                background-color: darkgoldenrod;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="main-header box-shadow">
+                <h1>Games</h1>
+            </header>
+            <section class="content-top">
+                <article class="content-bio">
+                    
+                    <div class="bio-text">
+                        <h1>About Us......</h1>
+                        <p>
+                                We opened our doors in January 1990. It was driven from a desire to provide quality service that 
+                            seemed to be lacking at other stores in the area that we used to shop. If you have ever walked into 
+                            a game store and left feeling like you were a burden to the guy behind the counter, you're not alone. 
+                            We strive to treat people the same way we wanted to be treated, but never were. We always try and answer 
+                            your questions and give you the attention you deserve, whether you are buying a action figure or game. 
+                            We will always do our best to answer any questions you may have, even if you are just looking for advice. 
+                            We encourage you to stop by and say hello.
+                        </p> 
+                        <p>
+                                We are a family owned business located in the heart of Fresno, California. We supply games for those who are in the hobby of hunting. Whether it is for 
+                           fun we are here for you. We have been serving the Central Valley for 
+                            almost 37 years now. Our products action figures to games.
+                            We have one of the best product in town, and if we don't have what you want, we wil 
+                            special order it just for you.
+                        </p>
+                        <p>
+                                We offer small town service at large discount store prices. Our goal is to develop a lifetime 
+                            relationship that starts with your first purchase and to provide a knowledgeable sales team eager 
+                            to help you.
+                        </p>
+                    </div>
+                </article>
+            </section>
+            <section class="content-bottom">
+                <aside class="sidebar">
+                    <ul class="sidebar-links">
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        
+                    </ul>
+                </aside>
+                <article class="main-content">
+                    <div> </div>
+                    <div> </div>
+                </article>
+            </section>
+            
+        </div>
+        <footer class="footer box-shadow">
+            <p class="copyright">
+                (c) Created by Steven Lee
+            </p>
+        </footer>
+       
+    </body>
+</html>
